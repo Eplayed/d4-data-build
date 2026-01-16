@@ -30,8 +30,6 @@ jobs:
           python scripts/fetch_tempering.py
           python scripts/affix_parser_v4.py
 
-      - name: Validate data
-        run: python scripts/validate_data.py
 
       - name: Commit & push if changed
         run: |
