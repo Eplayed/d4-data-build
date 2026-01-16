@@ -1,0 +1,992 @@
+{
+  "+[13.5 – 22.5]% Double Swing Size.": {
+    "raw": "+[13.5 – 22.5]% Double Swing Size.",
+    "kind": "skill_size",
+    "skill": "Double Swing",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[13.5 – 22.5]% Whirlwind Size.": {
+    "raw": "+[13.5 – 22.5]% Whirlwind Size.",
+    "kind": "skill_size",
+    "skill": "Whirlwind",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[29.0 – 42.5]% Frenzy Duration.": {
+    "raw": "+[29.0 – 42.5]% Frenzy Duration.",
+    "kind": "skill_duration",
+    "skill": "Frenzy",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[31.5 – 45.0]% Berserking Duration.": {
+    "raw": "+[31.5 – 45.0]% Berserking Duration.",
+    "kind": "skill_duration",
+    "skill": "Berserking",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[13.5 – 22.5]% Rend Size.": {
+    "raw": "+[13.5 – 22.5]% Rend Size.",
+    "kind": "skill_size",
+    "skill": "Rend",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[21.0 – 30.0]% Rupture Size.": {
+    "raw": "+[21.0 – 30.0]% Rupture Size.",
+    "kind": "skill_size",
+    "skill": "Rupture",
+    "value_range": "21.0 - 30.0"
+  },
+  "+[26.0 – 35.0]% Flay Duration.": {
+    "raw": "+[26.0 – 35.0]% Flay Duration.",
+    "kind": "skill_duration",
+    "skill": "Flay",
+    "value_range": "26.0 - 35.0"
+  },
+  "+[1 – 2] to Pressure Point.": {
+    "raw": "+[1 – 2] to Pressure Point.",
+    "kind": "skill_rank",
+    "skill": "Pressure Point",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Expose Vulnerability.": {
+    "raw": "+[1 – 2] to Expose Vulnerability.",
+    "kind": "skill_rank",
+    "skill": "Expose Vulnerability",
+    "value_range": "1 - 2"
+  },
+  "+[13.5 – 22.5]% Hammer of the Ancients Size.": {
+    "raw": "+[13.5 – 22.5]% Hammer of the Ancients Size.",
+    "kind": "skill_size",
+    "skill": "Hammer of the Ancients",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[13.5 – 22.5]% Upheaval Size.": {
+    "raw": "+[13.5 – 22.5]% Upheaval Size.",
+    "kind": "skill_size",
+    "skill": "Upheaval",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[251.0 – 350.0]% Kick Effect.": {
+    "raw": "+[251.0 – 350.0]% Kick Effect.",
+    "kind": "skill_effect",
+    "skill": "Kick",
+    "value_range": "251.0 - 350.0"
+  },
+  "+[82.5 – 105.0]% Dust Devil Damage.": {
+    "raw": "+[82.5 – 105.0]% Dust Devil Damage.",
+    "kind": "skill_damage",
+    "skill": "Dust Devil",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[21.0 – 30.0]% Dust Devil Size.": {
+    "raw": "+[21.0 – 30.0]% Dust Devil Size.",
+    "kind": "skill_size",
+    "skill": "Dust Devil",
+    "value_range": "21.0 - 30.0"
+  },
+  "+[26.5 – 40.0]% Ground Stomp Size.": {
+    "raw": "+[26.5 – 40.0]% Ground Stomp Size.",
+    "kind": "skill_size",
+    "skill": "Ground Stomp",
+    "value_range": "26.5 - 40.0"
+  },
+  "+[31.5 – 45.0]% Leap Size.": {
+    "raw": "+[31.5 – 45.0]% Leap Size.",
+    "kind": "skill_size",
+    "skill": "Leap",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[21.0 – 30.0]% Earthquake Size.": {
+    "raw": "+[21.0 – 30.0]% Earthquake Size.",
+    "kind": "skill_size",
+    "skill": "Earthquake",
+    "value_range": "21.0 - 30.0"
+  },
+  "+[23.5 – 32.5]% Earthquake Duration.": {
+    "raw": "+[23.5 – 32.5]% Earthquake Duration.",
+    "kind": "skill_duration",
+    "skill": "Earthquake",
+    "value_range": "23.5 - 32.5"
+  },
+  "+[144.5 – 185.0]% Kick Damage.": {
+    "raw": "+[144.5 – 185.0]% Kick Damage.",
+    "kind": "skill_damage",
+    "skill": "Kick",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[72.5 – 95.0]% Charge Damage.": {
+    "raw": "+[72.5 – 95.0]% Charge Damage.",
+    "kind": "skill_damage",
+    "skill": "Charge",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[82.5 – 105.0]% Death Blow Damage.": {
+    "raw": "+[82.5 – 105.0]% Death Blow Damage.",
+    "kind": "skill_damage",
+    "skill": "Death Blow",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[1 – 2] to Imposing Presence.": {
+    "raw": "+[1 – 2] to Imposing Presence.",
+    "kind": "skill_rank",
+    "skill": "Imposing Presence",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Martial Vigor.": {
+    "raw": "+[1 – 2] to Martial Vigor.",
+    "kind": "skill_rank",
+    "skill": "Martial Vigor",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Guttural Yell.": {
+    "raw": "+[1 – 2] to Guttural Yell.",
+    "kind": "skill_rank",
+    "skill": "Guttural Yell",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Defensive Stance.": {
+    "raw": "+[1 – 2] to Defensive Stance.",
+    "kind": "skill_rank",
+    "skill": "Defensive Stance",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Raid Leader.": {
+    "raw": "+[1 – 2] to Raid Leader.",
+    "kind": "skill_rank",
+    "skill": "Raid Leader",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Invigorating Fury.": {
+    "raw": "+[1 – 2] to Invigorating Fury.",
+    "kind": "skill_rank",
+    "skill": "Invigorating Fury",
+    "value_range": "1 - 2"
+  },
+  "+[110.0 – 150.0]% Steel Grasp Effect.": {
+    "raw": "+[110.0 – 150.0]% Steel Grasp Effect.",
+    "kind": "skill_effect",
+    "skill": "Steel Grasp",
+    "value_range": "110.0 - 150.0"
+  },
+  "+[90.0 – 130.0]% Upheaval Effect.": {
+    "raw": "+[90.0 – 130.0]% Upheaval Effect.",
+    "kind": "skill_effect",
+    "skill": "Upheaval",
+    "value_range": "90.0 - 130.0"
+  },
+  "+[16.0 – 25.0]% Stun Duration.": {
+    "raw": "+[16.0 – 25.0]% Stun Duration.",
+    "kind": "skill_duration",
+    "skill": "Stun",
+    "value_range": "16.0 - 25.0"
+  },
+  "+[1 – 2] to Concussion.": {
+    "raw": "+[1 – 2] to Concussion.",
+    "kind": "skill_rank",
+    "skill": "Concussion",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Outburst.": {
+    "raw": "+[1 – 2] to Outburst.",
+    "kind": "skill_rank",
+    "skill": "Outburst",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Tough as Nails.": {
+    "raw": "+[1 – 2] to Tough as Nails.",
+    "kind": "skill_rank",
+    "skill": "Tough as Nails",
+    "value_range": "1 - 2"
+  },
+  "+[13.0 – 17.5]% Crowd Control Duration.": {
+    "raw": "+[13.0 – 17.5]% Crowd Control Duration.",
+    "kind": "skill_duration",
+    "skill": "Crowd Control",
+    "value_range": "13.0 - 17.5"
+  },
+  "+[28.5 – 37.5]% Hemorrhage Size.": {
+    "raw": "+[28.5 – 37.5]% Hemorrhage Size.",
+    "kind": "skill_size",
+    "skill": "Hemorrhage",
+    "value_range": "28.5 - 37.5"
+  },
+  "+[13.5 – 22.5]% Blood Surge Size.": {
+    "raw": "+[13.5 – 22.5]% Blood Surge Size.",
+    "kind": "skill_size",
+    "skill": "Blood Surge",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[29.0 – 42.5]% Blood Lance Duration.": {
+    "raw": "+[29.0 – 42.5]% Blood Lance Duration.",
+    "kind": "skill_duration",
+    "skill": "Blood Lance",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[26.0 – 35.0]% Bone Spirit Size.": {
+    "raw": "+[26.0 – 35.0]% Bone Spirit Size.",
+    "kind": "skill_size",
+    "skill": "Bone Spirit",
+    "value_range": "26.0 - 35.0"
+  },
+  "+[16.0 – 25.0]% Bone Storm Duration.": {
+    "raw": "+[16.0 – 25.0]% Bone Storm Duration.",
+    "kind": "skill_duration",
+    "skill": "Bone Storm",
+    "value_range": "16.0 - 25.0"
+  },
+  "+[28.5 – 37.5]% Decompose Size.": {
+    "raw": "+[28.5 – 37.5]% Decompose Size.",
+    "kind": "skill_size",
+    "skill": "Decompose",
+    "value_range": "28.5 - 37.5"
+  },
+  "+[13.5 – 22.5]% Blight Size.": {
+    "raw": "+[13.5 – 22.5]% Blight Size.",
+    "kind": "skill_size",
+    "skill": "Blight",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[13.5 – 22.5]% Sever Size.": {
+    "raw": "+[13.5 – 22.5]% Sever Size.",
+    "kind": "skill_size",
+    "skill": "Sever",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[29.0 – 42.5]% Reap Duration.": {
+    "raw": "+[29.0 – 42.5]% Reap Duration.",
+    "kind": "skill_duration",
+    "skill": "Reap",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[31.5 – 45.0]% Skeleton Priest Effect Duration.": {
+    "raw": "+[31.5 – 45.0]% Skeleton Priest Effect Duration.",
+    "kind": "skill_duration",
+    "skill": "Skeleton Priest Effect",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[41.5 – 55.0]% Blood Damage.": {
+    "raw": "+[41.5 – 55.0]% Blood Damage.",
+    "kind": "skill_damage",
+    "skill": "Blood",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Blood Overpower Damage.": {
+    "raw": "+[62.5 – 85.0]% Blood Overpower Damage.",
+    "kind": "skill_damage",
+    "skill": "Blood Overpower",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[41.5 – 55.0]% Bone Damage.": {
+    "raw": "+[41.5 – 55.0]% Bone Damage.",
+    "kind": "skill_damage",
+    "skill": "Bone",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Bone Critical Strike Damage.": {
+    "raw": "+[62.5 – 85.0]% Bone Critical Strike Damage.",
+    "kind": "skill_damage",
+    "skill": "Bone Critical Strike",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[103.5 – 135.0]% Bone Spirit Damage.": {
+    "raw": "+[103.5 – 135.0]% Bone Spirit Damage.",
+    "kind": "skill_damage",
+    "skill": "Bone Spirit",
+    "value_range": "103.5 - 135.0"
+  },
+  "+[82.5 – 105.0]% Macabre Damage.": {
+    "raw": "+[82.5 – 105.0]% Macabre Damage.",
+    "kind": "skill_damage",
+    "skill": "Macabre",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[98.0 – 125.0]% Iron Maiden Damage.": {
+    "raw": "+[98.0 – 125.0]% Iron Maiden Damage.",
+    "kind": "skill_damage",
+    "skill": "Iron Maiden",
+    "value_range": "98.0 - 125.0"
+  },
+  "+[219.0 – 300.0]% Corpse Tendrils Damage.": {
+    "raw": "+[219.0 – 300.0]% Corpse Tendrils Damage.",
+    "kind": "skill_damage",
+    "skill": "Corpse Tendrils",
+    "value_range": "219.0 - 300.0"
+  },
+  "+[41.5 – 55.0]% Darkness Damage.": {
+    "raw": "+[41.5 – 55.0]% Darkness Damage.",
+    "kind": "skill_damage",
+    "skill": "Darkness",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[82.5 – 105.0]% Desecrated Ground Damage.": {
+    "raw": "+[82.5 – 105.0]% Desecrated Ground Damage.",
+    "kind": "skill_damage",
+    "skill": "Desecrated Ground",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[72.5 – 95.0]% Corpse Explosion Damage.": {
+    "raw": "+[72.5 – 95.0]% Corpse Explosion Damage.",
+    "kind": "skill_damage",
+    "skill": "Corpse Explosion",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[41.5 – 55.0]% Summoning Damage.": {
+    "raw": "+[41.5 – 55.0]% Summoning Damage.",
+    "kind": "skill_damage",
+    "skill": "Summoning",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Skeletal Mages Damage.": {
+    "raw": "+[62.5 – 85.0]% Skeletal Mages Damage.",
+    "kind": "skill_damage",
+    "skill": "Skeletal Mages",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[82.5 – 105.0]% Golems Damage.": {
+    "raw": "+[82.5 – 105.0]% Golems Damage.",
+    "kind": "skill_damage",
+    "skill": "Golems",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[10.5 – 15.0]% Blood Mist Duration.": {
+    "raw": "+[10.5 – 15.0]% Blood Mist Duration.",
+    "kind": "skill_duration",
+    "skill": "Blood Mist",
+    "value_range": "10.5 - 15.0"
+  },
+  "+[26.5 – 40.0]% Blight Effect.": {
+    "raw": "+[26.5 – 40.0]% Blight Effect.",
+    "kind": "skill_effect",
+    "skill": "Blight",
+    "value_range": "26.5 - 40.0"
+  },
+  "+[29.0 – 42.5]% Corpse Tendrils Duration.": {
+    "raw": "+[29.0 – 42.5]% Corpse Tendrils Duration.",
+    "kind": "skill_duration",
+    "skill": "Corpse Tendrils",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[1 – 2] to Crippling Darkness.": {
+    "raw": "+[1 – 2] to Crippling Darkness.",
+    "kind": "skill_rank",
+    "skill": "Crippling Darkness",
+    "value_range": "1 - 2"
+  },
+  "+[13.5 – 22.5]% Corpse Explosion Size.": {
+    "raw": "+[13.5 – 22.5]% Corpse Explosion Size.",
+    "kind": "skill_size",
+    "skill": "Corpse Explosion",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[26.5 – 40.0]% Corpse Tendrils Size.": {
+    "raw": "+[26.5 – 40.0]% Corpse Tendrils Size.",
+    "kind": "skill_size",
+    "skill": "Corpse Tendrils",
+    "value_range": "26.5 - 40.0"
+  },
+  "+[31.5 – 45.0]% Iron Maiden Size.": {
+    "raw": "+[31.5 – 45.0]% Iron Maiden Size.",
+    "kind": "skill_size",
+    "skill": "Iron Maiden",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[31.5 – 45.0]% Decrepify Size.": {
+    "raw": "+[31.5 – 45.0]% Decrepify Size.",
+    "kind": "skill_size",
+    "skill": "Decrepify",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[29.0 – 42.5]% Curse Duration.": {
+    "raw": "+[29.0 – 42.5]% Curse Duration.",
+    "kind": "skill_duration",
+    "skill": "Curse",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[1 – 2] to Rapid Ossification.": {
+    "raw": "+[1 – 2] to Rapid Ossification.",
+    "kind": "skill_rank",
+    "skill": "Rapid Ossification",
+    "value_range": "1 - 2"
+  },
+  "+[18.5 – 27.5]% Blizzard Size.": {
+    "raw": "+[18.5 – 27.5]% Blizzard Size.",
+    "kind": "skill_size",
+    "skill": "Blizzard",
+    "value_range": "18.5 - 27.5"
+  },
+  "+[13.5 – 22.5]% Incinerate Size.": {
+    "raw": "+[13.5 – 22.5]% Incinerate Size.",
+    "kind": "skill_size",
+    "skill": "Incinerate",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[13.5 – 22.5]% Meteor Size.": {
+    "raw": "+[13.5 – 22.5]% Meteor Size.",
+    "kind": "skill_size",
+    "skill": "Meteor",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[18.5 – 27.5]% Firewall Size.": {
+    "raw": "+[18.5 – 27.5]% Firewall Size.",
+    "kind": "skill_size",
+    "skill": "Firewall",
+    "value_range": "18.5 - 27.5"
+  },
+  "+[36.5 – 50.0]% Teleport Size.": {
+    "raw": "+[36.5 – 50.0]% Teleport Size.",
+    "kind": "skill_size",
+    "skill": "Teleport",
+    "value_range": "36.5 - 50.0"
+  },
+  "+[72.5 – 95.0]% Conjuration Damage.": {
+    "raw": "+[72.5 – 95.0]% Conjuration Damage.",
+    "kind": "skill_damage",
+    "skill": "Conjuration",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[98.0 – 125.0]% Hydra Damage.": {
+    "raw": "+[98.0 – 125.0]% Hydra Damage.",
+    "kind": "skill_damage",
+    "skill": "Hydra",
+    "value_range": "98.0 - 125.0"
+  },
+  "+[98.0 – 125.0]% Ice Blades Damage.": {
+    "raw": "+[98.0 – 125.0]% Ice Blades Damage.",
+    "kind": "skill_damage",
+    "skill": "Ice Blades",
+    "value_range": "98.0 - 125.0"
+  },
+  "+[98.0 – 125.0]% Lightning Spear Damage.": {
+    "raw": "+[98.0 – 125.0]% Lightning Spear Damage.",
+    "kind": "skill_damage",
+    "skill": "Lightning Spear",
+    "value_range": "98.0 - 125.0"
+  },
+  "+[41.5 – 55.0]% Cold Damage.": {
+    "raw": "+[41.5 – 55.0]% Cold Damage.",
+    "kind": "skill_damage",
+    "skill": "Cold",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[41.5 – 55.0]% Vulnerable Damage.": {
+    "raw": "+[41.5 – 55.0]% Vulnerable Damage.",
+    "kind": "skill_damage",
+    "skill": "Vulnerable",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[72.5 – 95.0]% Blizzard Damage.": {
+    "raw": "+[72.5 – 95.0]% Blizzard Damage.",
+    "kind": "skill_damage",
+    "skill": "Blizzard",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[82.5 – 105.0]% Ice Spike Damage.": {
+    "raw": "+[82.5 – 105.0]% Ice Spike Damage.",
+    "kind": "skill_damage",
+    "skill": "Ice Spike",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[41.5 – 55.0]% Fire Damage.": {
+    "raw": "+[41.5 – 55.0]% Fire Damage.",
+    "kind": "skill_damage",
+    "skill": "Fire",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Pyromancy Critical Strike Damage.": {
+    "raw": "+[62.5 – 85.0]% Pyromancy Critical Strike Damage.",
+    "kind": "skill_damage",
+    "skill": "Pyromancy Critical Strike",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[62.5 – 85.0]% Mastery Damage.": {
+    "raw": "+[62.5 – 85.0]% Mastery Damage.",
+    "kind": "skill_damage",
+    "skill": "Mastery",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[41.5 – 55.0]% Lightning Damage.": {
+    "raw": "+[41.5 – 55.0]% Lightning Damage.",
+    "kind": "skill_damage",
+    "skill": "Lightning",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Shock Critical Strike Damage.": {
+    "raw": "+[62.5 – 85.0]% Shock Critical Strike Damage.",
+    "kind": "skill_damage",
+    "skill": "Shock Critical Strike",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[155.0 – 200.0]% Teleport Damage.": {
+    "raw": "+[155.0 – 200.0]% Teleport Damage.",
+    "kind": "skill_damage",
+    "skill": "Teleport",
+    "value_range": "155.0 - 200.0"
+  },
+  "+[82.5 – 105.0]% Crackling Energy Damage.": {
+    "raw": "+[82.5 – 105.0]% Crackling Energy Damage.",
+    "kind": "skill_damage",
+    "skill": "Crackling Energy",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[1 – 2] to Cold Front.": {
+    "raw": "+[1 – 2] to Cold Front.",
+    "kind": "skill_rank",
+    "skill": "Cold Front",
+    "value_range": "1 - 2"
+  },
+  "+[10.5 – 15.0]% Flame Shield Duration.": {
+    "raw": "+[10.5 – 15.0]% Flame Shield Duration.",
+    "kind": "skill_duration",
+    "skill": "Flame Shield",
+    "value_range": "10.5 - 15.0"
+  },
+  "+[1 – 2] to Warmth.": {
+    "raw": "+[1 – 2] to Warmth.",
+    "kind": "skill_rank",
+    "skill": "Warmth",
+    "value_range": "1 - 2"
+  },
+  "+[13.5 – 22.5]% Immobilize Duration.": {
+    "raw": "+[13.5 – 22.5]% Immobilize Duration.",
+    "kind": "skill_duration",
+    "skill": "Immobilize",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[16.0 – 25.0]% Freeze Duration.": {
+    "raw": "+[16.0 – 25.0]% Freeze Duration.",
+    "kind": "skill_duration",
+    "skill": "Freeze",
+    "value_range": "16.0 - 25.0"
+  },
+  "+[26.5 – 40.0]% Frost Nova Size.": {
+    "raw": "+[26.5 – 40.0]% Frost Nova Size.",
+    "kind": "skill_size",
+    "skill": "Frost Nova",
+    "value_range": "26.5 - 40.0"
+  },
+  "+[1 – 2] to Invigorating Conduit.": {
+    "raw": "+[1 – 2] to Invigorating Conduit.",
+    "kind": "skill_rank",
+    "skill": "Invigorating Conduit",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Frigid Breeze.": {
+    "raw": "+[1 – 2] to Frigid Breeze.",
+    "kind": "skill_rank",
+    "skill": "Frigid Breeze",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Fiery Surge.": {
+    "raw": "+[1 – 2] to Fiery Surge.",
+    "kind": "skill_rank",
+    "skill": "Fiery Surge",
+    "value_range": "1 - 2"
+  },
+  "+[29.0 – 42.5]% Invigorating Strike Duration.": {
+    "raw": "+[29.0 – 42.5]% Invigorating Strike Duration.",
+    "kind": "skill_duration",
+    "skill": "Invigorating Strike",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[29.0 – 42.5]% Heartseeker Duration.": {
+    "raw": "+[29.0 – 42.5]% Heartseeker Duration.",
+    "kind": "skill_duration",
+    "skill": "Heartseeker",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[21.0 – 30.0]% Twisting Blades Effect.": {
+    "raw": "+[21.0 – 30.0]% Twisting Blades Effect.",
+    "kind": "skill_effect",
+    "skill": "Twisting Blades",
+    "value_range": "21.0 - 30.0"
+  },
+  "+[13.5 – 22.5]% Flurry Size.": {
+    "raw": "+[13.5 – 22.5]% Flurry Size.",
+    "kind": "skill_size",
+    "skill": "Flurry",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[31.5 – 45.0]% Caltrops Size.": {
+    "raw": "+[31.5 – 45.0]% Caltrops Size.",
+    "kind": "skill_size",
+    "skill": "Caltrops",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[31.5 – 45.0]% Caltrops Duration.": {
+    "raw": "+[31.5 – 45.0]% Caltrops Duration.",
+    "kind": "skill_duration",
+    "skill": "Caltrops",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[29.0 – 42.5]% Poison Trap Duration.": {
+    "raw": "+[29.0 – 42.5]% Poison Trap Duration.",
+    "kind": "skill_duration",
+    "skill": "Poison Trap",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[41.5 – 55.0]% Cutthroat Damage.": {
+    "raw": "+[41.5 – 55.0]% Cutthroat Damage.",
+    "kind": "skill_damage",
+    "skill": "Cutthroat",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Critical Strike Damage.": {
+    "raw": "+[62.5 – 85.0]% Critical Strike Damage.",
+    "kind": "skill_damage",
+    "skill": "Critical Strike",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[41.5 – 55.0]% Marksman Damage.": {
+    "raw": "+[41.5 – 55.0]% Marksman Damage.",
+    "kind": "skill_damage",
+    "skill": "Marksman",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[114.0 – 150.0]% Rain of Arrows Damage.": {
+    "raw": "+[114.0 – 150.0]% Rain of Arrows Damage.",
+    "kind": "skill_damage",
+    "skill": "Rain of Arrows",
+    "value_range": "114.0 - 150.0"
+  },
+  "+[62.5 – 85.0]% Imbued Damage.": {
+    "raw": "+[62.5 – 85.0]% Imbued Damage.",
+    "kind": "skill_damage",
+    "skill": "Imbued",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[72.5 – 95.0]% Trap Damage.": {
+    "raw": "+[72.5 – 95.0]% Trap Damage.",
+    "kind": "skill_damage",
+    "skill": "Trap",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[21.0 – 30.0]% Stun Grenade Size.": {
+    "raw": "+[21.0 – 30.0]% Stun Grenade Size.",
+    "kind": "skill_size",
+    "skill": "Stun Grenade",
+    "value_range": "21.0 - 30.0"
+  },
+  "+[16.0 – 25.0]% Shadow Clone Duration.": {
+    "raw": "+[16.0 – 25.0]% Shadow Clone Duration.",
+    "kind": "skill_duration",
+    "skill": "Shadow Clone",
+    "value_range": "16.0 - 25.0"
+  },
+  "+[26.0 – 35.0]% Inner Sight Duration.": {
+    "raw": "+[26.0 – 35.0]% Inner Sight Duration.",
+    "kind": "skill_duration",
+    "skill": "Inner Sight",
+    "value_range": "26.0 - 35.0"
+  },
+  "+[144.5 – 185.0]% Shadow Step Damage.": {
+    "raw": "+[144.5 – 185.0]% Shadow Step Damage.",
+    "kind": "skill_damage",
+    "skill": "Shadow Step",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[144.5 – 185.0]% Dash Damage.": {
+    "raw": "+[144.5 – 185.0]% Dash Damage.",
+    "kind": "skill_damage",
+    "skill": "Dash",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[114.0 – 150.0]% Shadow Clone Damage.": {
+    "raw": "+[114.0 – 150.0]% Shadow Clone Damage.",
+    "kind": "skill_damage",
+    "skill": "Shadow Clone",
+    "value_range": "114.0 - 150.0"
+  },
+  "+[82.5 – 105.0]% Stun Grenade Damage.": {
+    "raw": "+[82.5 – 105.0]% Stun Grenade Damage.",
+    "kind": "skill_damage",
+    "skill": "Stun Grenade",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[15.5 – 20.0]% Concealment Duration.": {
+    "raw": "+[15.5 – 20.0]% Concealment Duration.",
+    "kind": "skill_duration",
+    "skill": "Concealment",
+    "value_range": "15.5 - 20.0"
+  },
+  "+[1 – 2] to Agile.": {
+    "raw": "+[1 – 2] to Agile.",
+    "kind": "skill_rank",
+    "skill": "Agile",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Siphoning Strikes.": {
+    "raw": "+[1 – 2] to Siphoning Strikes.",
+    "kind": "skill_rank",
+    "skill": "Siphoning Strikes",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Mending Obscurity.": {
+    "raw": "+[1 – 2] to Mending Obscurity.",
+    "kind": "skill_rank",
+    "skill": "Mending Obscurity",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Trick Attacks.": {
+    "raw": "+[1 – 2] to Trick Attacks.",
+    "kind": "skill_rank",
+    "skill": "Trick Attacks",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Chilling Weight.": {
+    "raw": "+[1 – 2] to Chilling Weight.",
+    "kind": "skill_rank",
+    "skill": "Chilling Weight",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Shadow Crash.": {
+    "raw": "+[1 – 2] to Shadow Crash.",
+    "kind": "skill_rank",
+    "skill": "Shadow Crash",
+    "value_range": "1 - 2"
+  },
+  "+[28.5 – 37.5]% Smoke Grenade Duration.": {
+    "raw": "+[28.5 – 37.5]% Smoke Grenade Duration.",
+    "kind": "skill_duration",
+    "skill": "Smoke Grenade",
+    "value_range": "28.5 - 37.5"
+  },
+  "+[46.5 – 60.0]% Shadow Step Duration.": {
+    "raw": "+[46.5 – 60.0]% Shadow Step Duration.",
+    "kind": "skill_duration",
+    "skill": "Shadow Step",
+    "value_range": "46.5 - 60.0"
+  },
+  "+[2 – 3] to Stutter Step.": {
+    "raw": "+[2 – 3] to Stutter Step.",
+    "kind": "skill_rank",
+    "skill": "Stutter Step",
+    "value_range": "2 - 3"
+  },
+  "+[1 – 2] Shadow Imbuement Count.": {
+    "raw": "+[1 – 2] Shadow Imbuement Count.",
+    "kind": "imbuement_count",
+    "element": "Shadow",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] Poison Imbuement Count.": {
+    "raw": "+[1 – 2] Poison Imbuement Count.",
+    "kind": "imbuement_count",
+    "element": "Poison",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] Cold Imbuement Count.": {
+    "raw": "+[1 – 2] Cold Imbuement Count.",
+    "kind": "imbuement_count",
+    "element": "Cold",
+    "value_range": "1 - 2"
+  },
+  "+[18.5 – 27.5]% Invigorating Strike Effect.": {
+    "raw": "+[18.5 – 27.5]% Invigorating Strike Effect.",
+    "kind": "skill_effect",
+    "skill": "Invigorating Strike",
+    "value_range": "18.5 - 27.5"
+  },
+  "+[1 – 2] to Innervation.": {
+    "raw": "+[1 – 2] to Innervation.",
+    "kind": "skill_rank",
+    "skill": "Innervation",
+    "value_range": "1 - 2"
+  },
+  "+[1 – 2] to Adrenaline Rush.": {
+    "raw": "+[1 – 2] to Adrenaline Rush.",
+    "kind": "skill_rank",
+    "skill": "Adrenaline Rush",
+    "value_range": "1 - 2"
+  },
+  "+[36.5 – 50.0]% Petrify Duration.": {
+    "raw": "+[36.5 – 50.0]% Petrify Duration.",
+    "kind": "skill_duration",
+    "skill": "Petrify",
+    "value_range": "36.5 - 50.0"
+  },
+  "+[31.5 – 45.0]% Hurricane Size.": {
+    "raw": "+[31.5 – 45.0]% Hurricane Size.",
+    "kind": "skill_size",
+    "skill": "Hurricane",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[29.0 – 42.5]% Lightning Storm Duration.": {
+    "raw": "+[29.0 – 42.5]% Lightning Storm Duration.",
+    "kind": "skill_duration",
+    "skill": "Lightning Storm",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[29.0 – 42.5]% Hurricane Duration.": {
+    "raw": "+[29.0 – 42.5]% Hurricane Duration.",
+    "kind": "skill_duration",
+    "skill": "Hurricane",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[28.5 – 37.5]% Maul Size.": {
+    "raw": "+[28.5 – 37.5]% Maul Size.",
+    "kind": "skill_size",
+    "skill": "Maul",
+    "value_range": "28.5 - 37.5"
+  },
+  "+[13.5 – 22.5]% Pulverize Size.": {
+    "raw": "+[13.5 – 22.5]% Pulverize Size.",
+    "kind": "skill_size",
+    "skill": "Pulverize",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[16.0 – 25.0]% Grizzly Rage Duration.": {
+    "raw": "+[16.0 – 25.0]% Grizzly Rage Duration.",
+    "kind": "skill_duration",
+    "skill": "Grizzly Rage",
+    "value_range": "16.0 - 25.0"
+  },
+  "+[29.0 – 42.5]% Rabies Duration.": {
+    "raw": "+[29.0 – 42.5]% Rabies Duration.",
+    "kind": "skill_duration",
+    "skill": "Rabies",
+    "value_range": "29.0 - 42.5"
+  },
+  "+[13.0 – 17.5]% Lacerate Duration.": {
+    "raw": "+[13.0 – 17.5]% Lacerate Duration.",
+    "kind": "skill_duration",
+    "skill": "Lacerate",
+    "value_range": "13.0 - 17.5"
+  },
+  "+[144.5 – 185.0]% Rabies Damage.": {
+    "raw": "+[144.5 – 185.0]% Rabies Damage.",
+    "kind": "skill_damage",
+    "skill": "Rabies",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[144.5 – 185.0]% Trample Damage.": {
+    "raw": "+[144.5 – 185.0]% Trample Damage.",
+    "kind": "skill_damage",
+    "skill": "Trample",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[114.0 – 150.0]% Lacerate Damage.": {
+    "raw": "+[114.0 – 150.0]% Lacerate Damage.",
+    "kind": "skill_damage",
+    "skill": "Lacerate",
+    "value_range": "114.0 - 150.0"
+  },
+  "+[62.5 – 85.0]% Werebear Overpower Damage.": {
+    "raw": "+[62.5 – 85.0]% Werebear Overpower Damage.",
+    "kind": "skill_damage",
+    "skill": "Werebear Overpower",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[72.5 – 95.0]% Companion Damage.": {
+    "raw": "+[72.5 – 95.0]% Companion Damage.",
+    "kind": "skill_damage",
+    "skill": "Companion",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[82.5 – 105.0]% Wolves Damage.": {
+    "raw": "+[82.5 – 105.0]% Wolves Damage.",
+    "kind": "skill_damage",
+    "skill": "Wolves",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[144.5 – 185.0]% Poison Creeper Damage.": {
+    "raw": "+[144.5 – 185.0]% Poison Creeper Damage.",
+    "kind": "skill_damage",
+    "skill": "Poison Creeper",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[144.5 – 185.0]% Ravens Damage.": {
+    "raw": "+[144.5 – 185.0]% Ravens Damage.",
+    "kind": "skill_damage",
+    "skill": "Ravens",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[41.5 – 55.0]% Earth Damage.": {
+    "raw": "+[41.5 – 55.0]% Earth Damage.",
+    "kind": "skill_damage",
+    "skill": "Earth",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[62.5 – 85.0]% Earth Overpower Damage.": {
+    "raw": "+[62.5 – 85.0]% Earth Overpower Damage.",
+    "kind": "skill_damage",
+    "skill": "Earth Overpower",
+    "value_range": "62.5 - 85.0"
+  },
+  "+[72.5 – 95.0]% Boulder Damage.": {
+    "raw": "+[72.5 – 95.0]% Boulder Damage.",
+    "kind": "skill_damage",
+    "skill": "Boulder",
+    "value_range": "72.5 - 95.0"
+  },
+  "+[41.5 – 55.0]% Storm Damage.": {
+    "raw": "+[41.5 – 55.0]% Storm Damage.",
+    "kind": "skill_damage",
+    "skill": "Storm",
+    "value_range": "41.5 - 55.0"
+  },
+  "+[144.5 – 185.0]% Hurricane Damage.": {
+    "raw": "+[144.5 – 185.0]% Hurricane Damage.",
+    "kind": "skill_damage",
+    "skill": "Hurricane",
+    "value_range": "144.5 - 185.0"
+  },
+  "+[114.0 – 150.0]% Cataclysm Damage.": {
+    "raw": "+[114.0 – 150.0]% Cataclysm Damage.",
+    "kind": "skill_damage",
+    "skill": "Cataclysm",
+    "value_range": "114.0 - 150.0"
+  },
+  "+[82.5 – 105.0]% Lightning Bolt Damage.": {
+    "raw": "+[82.5 – 105.0]% Lightning Bolt Damage.",
+    "kind": "skill_damage",
+    "skill": "Lightning Bolt",
+    "value_range": "82.5 - 105.0"
+  },
+  "+[31.5 – 45.0]% Cyclone Armor Size.": {
+    "raw": "+[31.5 – 45.0]% Cyclone Armor Size.",
+    "kind": "skill_size",
+    "skill": "Cyclone Armor",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[15.5 – 20.0]% Earthen Bulwark Duration.": {
+    "raw": "+[15.5 – 20.0]% Earthen Bulwark Duration.",
+    "kind": "skill_duration",
+    "skill": "Earthen Bulwark",
+    "value_range": "15.5 - 20.0"
+  },
+  "+[10.5 – 15.0]% Debilitating Roar Duration.": {
+    "raw": "+[10.5 – 15.0]% Debilitating Roar Duration.",
+    "kind": "skill_duration",
+    "skill": "Debilitating Roar",
+    "value_range": "10.5 - 15.0"
+  },
+  "+[1 – 2] to Nature’s Resolve.": {
+    "raw": "+[1 – 2] to Nature’s Resolve.",
+    "kind": "skill_rank",
+    "skill": "Nature’s Resolve",
+    "value_range": "1 - 2"
+  },
+  "+[13.5 – 22.5]% Poison Creeper Duration.": {
+    "raw": "+[13.5 – 22.5]% Poison Creeper Duration.",
+    "kind": "skill_duration",
+    "skill": "Poison Creeper",
+    "value_range": "13.5 - 22.5"
+  },
+  "+[31.5 – 45.0]% Ravens Size.": {
+    "raw": "+[31.5 – 45.0]% Ravens Size.",
+    "kind": "skill_size",
+    "skill": "Ravens",
+    "value_range": "31.5 - 45.0"
+  },
+  "+[4 – 6] to Digitigrade Gait.": {
+    "raw": "+[4 – 6] to Digitigrade Gait.",
+    "kind": "skill_rank",
+    "skill": "Digitigrade Gait",
+    "value_range": "4 - 6"
+  },
+  "+[1 – 2] to Abundance.": {
+    "raw": "+[1 – 2] to Abundance.",
+    "kind": "skill_rank",
+    "skill": "Abundance",
+    "value_range": "1 - 2"
+  }
+}

@@ -1,0 +1,51 @@
+name: Update D4 Data
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 每天 UTC 3 点（北京时间 11 点）
+  workflow_dispatch:      # 支持手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch & build data
+        run: |
+          python scripts/fetch_tempering.py
+          python scripts/affix_parser_v4.py
+
+      - name: Validate data
+        run: python scripts/validate_data.py
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "d4-bot"
+            git config user.email "d4-bot@users.noreply.github.com"
+            git add static/data
+            git commit -m "chore(data): auto update d4 tempering data"
+            git push
+          else
+            echo "No data changes"
+          fi
+
+          
+      - name: Validate data
+        run: |
+          python scripts/validate_data.py
