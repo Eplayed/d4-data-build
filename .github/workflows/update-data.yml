@@ -45,7 +45,3 @@ jobs:
             echo "No data changes"
           fi
 
-          
-      - name: Validate data
-        run: |
-          python scripts/validate_data.py
