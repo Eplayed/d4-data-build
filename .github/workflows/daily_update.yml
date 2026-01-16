@@ -1,0 +1,38 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    # 每天 UTC 时间 18:00 (北京时间凌晨 2:00) 运行
+    - cron: '0 18 * * *'
+  workflow_dispatch: # 允许手动点击按钮触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run fetch script
+      run: |
+        cd scripts
+        python fetch_data.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add static/data/tempering_processed.json
+        # 如果有变动才提交，没变动不提交
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update D4 data" && git push)
